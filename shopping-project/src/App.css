@@ -1,0 +1,213 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.img {
+  max-width:100%;  
+  max-height:100%;
+  }
+  .shopimg {
+    background-image:
+    url(
+    "https://th.bing.com/th/id/OIP.LvzhpJjEgM8XBTULiamL1wHaEb?pid=ImgDet&rs=1");
+    background-size: 100% 90%;
+    height: 100vh;
+    margin-top: -70px;
+    font-size:50px;
+    background-repeat:no-repeat;
+    }
+    .shopimg:hover {
+      background: url("https://wallpaperaccess.com/full/2593065.jpg") no-repeat;
+      background-size: 100% 90%;
+  }
+
+  .shoppingimg {
+    background-image:
+    url(
+    "https://th.bing.com/th/id/OIP.glWfxnD05PA-GigZ2E3rpgHaD6?pid=ImgDet&rs=1");
+    background-size: 100% 90%;
+    height: 100vh;
+    margin-top: -70px;
+    font-size:50px;
+    background-repeat:no-repeat;
+    }
+    .shoppingimg:hover {
+      background: url("https://th.bing.com/th/id/OIP.EDuZiNM29KCXyATN8LUzXgHaEK?pid=ImgDet&rs=1") no-repeat;
+      background-size: 100% 90%;
+  }
+
+  .shopingimg {
+    background-image:
+    url(
+    "https://th.bing.com/th/id/OIP.glWfxnD05PA-GigZ2E3rpgHaD6?pid=ImgDet&rs=1");
+    /* opacity: 0.75; */
+    background-size: 100% 90%;
+    height: 100vh;
+    margin-top: -70px;
+    font-size:50px;
+    background-repeat:no-repeat;
+    }
+    .shopingimg:hover {
+      background: url("https://th.bing.com/th/id/OIP.EDuZiNM29KCXyATN8LUzXgHaEK?pid=ImgDet&rs=1") no-repeat;
+      background-size: 100% 90%;
+  }
+    
+.marqueestyle{
+  margin-bottom: 15px;
+}
+.background {
+  background-image: url("https://th.bing.com/th/id/OIP.0VMHxxqqSt7bY1DHkdsi6gHaHw?pid=ImgDet&rs=1");
+  background-size: 90% 90%;
+
+}
+  /* width: 950px;
+  height: 700px; */
+  /* object-fit: none; */
+
+.contact-box-item.blurb {
+  color: #2e475d;
+}
+
+.center {
+  display: block;
+  margin-left: 100px;
+  margin-right: 10px;
+  width: 100%;
+}
+.box {
+  border: 2px solid rgb(4, 196, 90);
+  margin-top: 70px;
+  display: inline-block;
+  width: 280px;
+  height: 230px;
+  background: rgb(244, 240, 240);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rectangle {
+  border: 2px solid rgb(189, 196, 4);
+  display: inline-block;
+  width: 280px;
+  height: 330px;
+  background: rgb(244, 240, 240);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bor {
+  
+  border: 2px solid rgb(189, 196, 4);
+}
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 70vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+  
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.tableft {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  border: 2px solid rgb(4, 196, 62);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.a {
+  color: #0aa3a3;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
